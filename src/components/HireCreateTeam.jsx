@@ -42,10 +42,11 @@ const HireCreateTeam = () => {
       <div className="max-w-7xl mx-auto w-full ">
         <div className="flex flex-col lg:flex-row  items-center justify-between gap-10  ">
           {/* Context  */}
-          <div className=" flex flex-col gap-4 w-full lg:w-2/3 space-x-4 text-center lg:text-left">
-            <h1 className="  text-3xl sm:text-4xl lg:text-5xl  font-medium flex lg:flex-col gap-2 items-center lg:items-start uppercase  text-green-400 tracking-tight">
+          <div className=" flex flex-col  gap-4 w-full lg:w-2/3 space-x-4 text-center lg:text-left ">
+
+            <h1 className="  text-3xl sm:text-4xl lg:text-5xl  font-medium flex flex-col sm:flex-row lg:flex-col gap-0 sm:gap-2  items-center lg:items-start uppercase  text-green-400 tracking-tight">
               Hire Dedicated
-              <span className="w-50 h-1 bg-green-400"></span>
+              <span className="w-55 h-1 bg-green-400"></span>
             </h1>
             <h1 className="text-4xl sm:text-6xl md:text-7xl font-bold text-black uppercase">
               Developers
